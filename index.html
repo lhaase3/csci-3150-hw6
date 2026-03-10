@@ -1,67 +1,87 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-
-    <title>Some movies</title>
+    <title>Favorite Movies</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
 
-    <style>
-      body {
-        font-family: "Open Sans Condensed", Arial, sans-serif;
-        margin: 24px;
-      }
-
-      h1 {
-        color: #1a5ad7;
-        font-size: 2.1em;
-        margin-bottom: 8px;
-      }
-
-      p {
-        max-width: 720px;
-        line-height: 1.5;
-      }
-
-      img {
-        display: block;
-        margin-top: 18px;
-        max-width: 100%;
-        height: auto;
-        border: 1px solid #888;
-      }
-    </style>
-
-    <!-- the below three lines are a fix to get HTML5 semantic elements working in old versions of Internet Explorer-->
+    <!-- Fix for older versions of Internet Explorer -->
     <!--[if lt IE 9]>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
     <![endif]-->
   </head>
-  <!-- I included the body element below which is not part of the html version or the head to make
-    make sure you include it above your HTML code -->
-  <body>
 
-    <h1>Some movies</h1>
+  <body>
+    <h1>My Favorite Movies</h1>
 
     <p>
-      I really enjoy watching <em>The Martian</em>. One of my favorite parts is when
-      Mark Watney uses science and humor to survive. My favorite scene is his
-      first message back to NASA, and my favorite character is Mark himself.
-      The cinematography and music make the whole story feel even bigger.
-      Learn more here:
-      <a href="https://en.wikipedia.org/wiki/The_Martian_(film)" target="_blank" rel="noopener noreferrer">The Martian</a>.
+      This page highlights two movies I really enjoy. I wanted to practice basic
+      HTML text markup and CSS styling while also writing about movies I like.
+      Both films are very different, but each one stands out for its memorable
+      characters and strong overall tone.
     </p>
 
-    <img src="images/martin_poster.jpg" alt="The Martian movie poster">
+    <hr>
+
+    <h2>The Martian</h2>
+
+    <p>
+      I really enjoy watching <em>The Martian</em>. One of my favorite parts is
+      when Mark Watney uses science and humor to survive. My favorite scene is
+      his first message back to NASA, and my favorite character is
+      <strong>Mark Watney</strong>. The cinematography and music make the whole
+      story feel even bigger.
+    </p>
+
+    <p>
+      Learn more here:
+      <a href="https://en.wikipedia.org/wiki/The_Martian_(film)" target="_blank" rel="noopener noreferrer">The Martian</a>
+    </p>
+
+    <img src="images/martian_poster.jpg" alt="The Martian movie poster">
+
+    <h3>Why I like it</h3>
+    <ul>
+      <li>It mixes science, survival, and humor.</li>
+      <li>The main character stays entertaining even in difficult situations.</li>
+      <li>The visuals make Mars feel huge and realistic.</li>
+    </ul>
+
+    <hr>
+
+    <h2>Office Space</h2>
 
     <p>
       <em>Office Space</em> is a hilarious look at the everyday frustrations of
       corporate life. My favorite parts are the deadpan humor and the way the
-      characters find small wins in a dull office routine. Learn more here:
-      <a href="https://en.wikipedia.org/wiki/Office_Space" target="_blank" rel="noopener noreferrer">Office Space</a>.
+      characters find small wins in a dull office routine. It is funny, but it
+      also feels relatable because it exaggerates things many people dislike
+      about office culture.
+    </p>
+
+    <p>
+      Learn more here:
+      <a href="https://en.wikipedia.org/wiki/Office_Space" target="_blank" rel="noopener noreferrer">Office Space</a>
     </p>
 
     <img src="images/officespace_poster.jpg" alt="Office Space movie poster">
 
- </body>
+    <h3>What stands out</h3>
+    <ol>
+      <li>The humor is simple and memorable.</li>
+      <li>The characters feel realistic in an exaggerated way.</li>
+      <li>It makes boring office routines funny.</li>
+    </ol>
+
+    <hr>
+
+    <h2>Final Thoughts</h2>
+    <p>
+      Even though these movies are very different, I like both because they are
+      memorable and easy to rewatch. <strong>The Martian</strong> is more
+      inspiring and dramatic, while <strong>Office Space</strong> is more
+      comedic and satirical.
+    </p>
+  </body>
 </html>
